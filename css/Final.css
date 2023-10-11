@@ -1,0 +1,121 @@
+html 
+{background: #D3C333}
+body { 
+    font-family: "canada-type-gibson", sans-serif;
+font-weight: 300;
+font-style: normal;
+    }
+h1 { font-family: "canada-type-gibson", sans-serif;
+font-weight: 900;
+font-style: normal;
+	position: absolute; 
+	left: 180px;
+	top: 50px;
+	font-size: 60px;
+ }
+
+h2 { 
+font-family: "canada-type-gibson", sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 30px;
+	position: absolute; 
+	left: 200px;
+	top: 200px;
+text-decoration-color: none;
+color: #682864;
+text-decoration: none;
+}
+	
+h3 { 
+font-family: "canada-type-gibson", sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 30px;
+	position: absolute; 
+	left:650px;
+	top: 200px;
+	
+}
+h4 { 
+font-family: "canada-type-gibson", sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 30px;
+	position: absolute; 
+	left: 200px;
+	top: 500px;
+	
+}
+h5 { 
+font-family: "canada-type-gibson", sans-serif;
+font-weight: 600;
+font-style: normal;
+	font-size: 30px;
+	position: absolute; 
+	left: 683px;
+	top: 500px;}
+h6 { 
+font-family: canada-type-gibson, sans-serif;
+font-weight: 100;
+font-style: normal;
+font-size: 50px;}
+
+.home {	position: absolute; 
+	left: 1030px;
+	top: 50px;}
+.design {	position: absolute; 
+	left: 1020px;
+	top: 120px;}
+.ill {	position: absolute; 
+	left: 990px;
+	top: 190px;}
+.games {	position: absolute; 
+	left: 1020px;
+	top: 260px;}
+.more {	position: absolute; 
+	left: 1040px;
+	top: 330px;}
+.about {	position: absolute; 
+	left: 995px;
+	top: 400px;}
+.contact {	position: absolute; 
+	left: 1015px;
+	top: 470px;}
+
+.redbanner img{
+	position: absolute;
+	top: 20px;
+	left:100px;
+	width: 800px;
+	}
+.designblock img{
+	position: absolute;
+	top: 260px;
+	left:150px;
+	width: 200px;}
+.illblock img{
+	position: absolute;
+	top: 260px;
+	left: 622px;
+	width: 200px;}
+.gamesblock img{
+	position: absolute;
+	top: 570px;
+	left:150px;
+	width: 200px;}
+.moreblock img{
+	position: absolute;
+	top: 580px;
+	left:622px;
+	width: 200px;}
+.button img{
+	position: absolute;
+	top: 90px;
+	left:1200px;
+	width: 50px;}
+.dopwdown img{
+	position: absolute;
+	top: 135px;
+	left:950px;
+	width: 300px;}
