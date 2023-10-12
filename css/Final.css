@@ -120,3 +120,26 @@ a { color: black; }
 a:hover { color: white; }
 .blockletters {color: black}
 .blockletters:hover {color: #DB7171;}
+
+/*for block hover*/
+
+.designblock:hover { 
+	position: relative;
+	left: 45px;
+	top: -40px;
+	transform: scale(1.1)}
+.illblock:hover { 
+	position: relative;
+	left: 0px;
+	top: -40px;
+	transform: scale(1.1)}
+.gamesblock:hover { 
+	position: relative;
+	left: 45px;
+	top:  -60px;
+	transform: scale(1.1)}
+.moreblock:hover { 
+	position: relative;
+	left: 0px;
+	top: -60px;
+	transform: scale(1.1)}

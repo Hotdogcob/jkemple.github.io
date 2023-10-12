@@ -3,6 +3,9 @@ html
 body { font-family: "canada-type-gibson", sans-serif;
 font-weight: 300;
 font-style: normal;}
+p {margin-top: 30px;
+margin-right: 1000px;
+margin-left: -100px;}
 h1 {font-family: "canada-type-gibson", sans-serif;
 font-weight: 900;
 font-style: normal;
@@ -27,7 +30,18 @@ font-size: 40px;}
 
 p {position: absolute;
 left: 180px;
-top: 200px;}
+top: 100px;}
+
+.brewsheet1 img {position: absolute;
+width: 200px;
+	top: 230px;
+	left: 80px;
+ }
+.brewsheet1:hover { 
+	position: relative;
+	left: 55px;
+	top:  -60px;
+	transform: scale(1.1)}
 
 .selfie img {position:absolute;
 	width: 300px;
