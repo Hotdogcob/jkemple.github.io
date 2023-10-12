@@ -1,0 +1,97 @@
+html
+{background: #D3C333}
+body { font-family: "canada-type-gibson", sans-serif;
+font-weight: 300;
+font-style: normal;}
+h1 {font-family: "canada-type-gibson", sans-serif;
+font-weight: 900;
+font-style: normal;
+position: absolute; 
+left: 180px;
+top: 50px;
+font-size: 60px;}
+h2 {font-family: "canada-type-gibson", sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 30px;
+text-decoration-color: none;
+   text-decoration: none;}
+h3 {font-family: canada-type-gibson, sans-serif;
+font-weight: 100;
+font-style: normal;
+font-size: 40px;}
+h3 {font-family: canada-type-gibson, sans-serif;
+font-weight: 100;
+font-style: normal;
+font-size: 40px;}
+
+p {position: absolute;
+left: 180px;
+top: 200px;}
+
+.selfie img {position:absolute;
+	width: 300px;
+	top: 220px;
+	left: 600px;
+	box-shadow: 2px 2px 15px 2px ;
+	
+}
+.button img{
+	position: absolute;
+	top: 90px;
+	left:1200px;
+	width: 50px;}
+.dopwdown img{
+	position: absolute;
+	top: 135px;
+	left:980px;
+	width: 240px;
+
+}
+
+.name {position: absolute;
+top: 160px;
+left: 620px;}
+
+.Home {
+position: absolute;
+left: 1020px;
+top: 120px;	}
+.design2 {
+position: absolute;
+left: 1020px;
+top: 180px;	}
+.illustration2 {position: absolute;
+left: 1020px;
+top: 250px;}
+.games2 {position: absolute;
+left: 1020px;
+top: 320px;}
+.more2 {position: absolute;
+left: 1020px;
+top: 390px;}
+.about2 {position: absolute;
+left: 1020px;
+top: 460px;}
+.contact2 {position: absolute;
+left: 1020px;
+top: 530px;}
+ a:link {
+      text-decoration: none;
+}
+
+a:visited {
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+a:active {
+      text-decoration: none;
+}
+a { color: black; }
+a:hover { color: white; }
+
+
