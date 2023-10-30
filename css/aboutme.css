@@ -1,14 +1,41 @@
-html
-{background: #D3C333}
-body { font-family: "canada-type-gibson", sans-serif;
+
+.leftfloat {
+	display: flex;
+	justify-content: space-around;
+	background-color: #F44337;
+	margin: auto;
+}
+.grid_container {
+	display: grid;
+	grid-template-columns: 1.5fr 1fr 3fr;
+    padding: auto;
+	text-align: center;
+	
+}
+.grid_items {
+	width: auto;
+}
+.info {
+	padding: 10px;
+grid-column: 1;
+}
+
+.title {
+	padding: 20px;
+grid-column: 3;
+} 
+img { max-width:60%;
+  height: auto;}
+  body {
+	background-color: #F8C44E;
+margin: 0;
+padding: 0;
+font-family: "canada-type-gibson", sans-serif;
 font-weight: 300;
 font-style: normal;}
 h1 {font-family: "canada-type-gibson", sans-serif;
 font-weight: 900;
-font-style: normal;
-position: absolute; 
-left: 180px;
-top: 50px;
+font-style: normal; 
 font-size: 60px;}
 h2 {font-family: "canada-type-gibson", sans-serif;
 font-weight: 600;
@@ -18,64 +45,9 @@ text-decoration-color: none;
    text-decoration: none;}
 h3 {font-family: canada-type-gibson, sans-serif;
 font-weight: 100;
-font-style: normal;
-font-size: 40px;}
-h3 {font-family: canada-type-gibson, sans-serif;
-font-weight: 100;
-font-style: normal;
-font-size: 40px;}
+font-size: 30px;}
+h3:hover {color: white;}
 
-p {position: absolute;
-left: 180px;
-top: 200px;}
-
-.selfie img {position:absolute;
-	width: 300px;
-	top: 230px;
-	left: 600px;
-	box-shadow: 2px 2px 15px 2px ;
-	
-}
-.button img{
-	position: absolute;
-	top: 90px;
-	left:1200px;
-	width: 50px;}
-.dopwdown img{
-	position: absolute;
-	top: 135px;
-	left:980px;
-	width: 240px;
-
-}
-
-.name {position: absolute;
-top: 160px;
-left: 620px;}
-
-.Home {
-position: absolute;
-left: 1020px;
-top: 120px;	}
-.design2 {
-position: absolute;
-left: 1020px;
-top: 180px;	}
-.illustration2 {position: absolute;
-left: 1020px;
-top: 250px;}
-.games2 {position: absolute;
-left: 1020px;
-top: 320px;}
-.more2 {position: absolute;
-left: 1020px;
-top: 390px;}
-.about2 {position: absolute;
-left: 1020px;
-top: 460px;}
-.contact2 {position: absolute;
-left: 1020px;
-top: 530px;}
  a:link {
       text-decoration: none;
 }
@@ -88,15 +60,10 @@ a:hover {
       text-decoration: none;
 }
 
-a:active { 
+a:active {
       text-decoration: none;
 }
-a { color: black; }
+a { color: #F8C44E; }
 a:hover { color: white; }
-.selfie:hover { 
-	position: relative;
-	left: 0px;
-	top: -60px;
-	transform: scale(1.2)}
-
-
+.blockletters {color: black}
+.blockletters:hover {color: #F44337;}

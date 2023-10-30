@@ -17,8 +17,7 @@ padding:0;}
 }
 
 .grid-container {display: grid;
-	grid-template-columns: 1fr 1fr ;
-	grid-template-rows: 1fr 1fr 1fr ;
+	grid-template-columns: 1fr 1fr;
 padding: auto;
 	text-align: center;
 }
@@ -38,8 +37,7 @@ grid-column: 1;}
 grid-column: 2;}
 
 img {
-  max-width: 100%;
-  min-width: 40px;
+  max-width:60%;
   height: auto;
 }
 
@@ -63,7 +61,7 @@ text-decoration-color: none;
    text-decoration: none;}
 h3 {font-family: canada-type-gibson, sans-serif;
 font-weight: 100;
-font-size: 20px;}
+font-size: 40px;}
 h3:hover {color: white;}
 
  a:link {
@@ -81,10 +79,10 @@ a:hover {
 a:active {
       text-decoration: none;
 }
-a { color: black; }
+a { color: #F8C44E; }
 a:hover { color: white; }
 .blockletters {color: black}
-.blockletters:hover {color: #DB7171;}
+.blockletters:hover {color: #F44337;}
 
 /*for block hover*/
 
