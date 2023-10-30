@@ -1,16 +1,59 @@
-html 
-{background: #D3C333}
-body 
 
-{ font-family: "canada-type-gibson", sans-serif;
+header {
+	display: flex;
+	background-color: #1F9FCD;
+margin:0; 
+padding:0;}
+.title {
+	margin: auto;
+	background-color: #1F9FCD;
+	text-align: center;
+}
+.leftfloat {
+	display: flex;
+	justify-content: space-around;
+	background-color: #F44337;
+	margin: auto;
+}
+
+.grid-container {display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 1fr 1fr 1fr ;
+padding: auto;
+	text-align: center;
+}
+
+.grid_item {
+	width: auto;
+	border-radius: 40px;
+}
+
+.designblock {padding: 20px;
+grid-column: 1;}
+.illblock {padding: 20px;
+grid-column: 2;}
+.gamesblock {padding: 20px;
+grid-column: 1;}
+.moreblock {padding: 20px;
+grid-column: 2;}
+
+img {
+  max-width: 100%;
+  min-width: 40px;
+  height: auto;
+}
+
+
+body {
+	background-color: #F8C44E;
+margin: 0;
+padding: 0;
+font-family: "canada-type-gibson", sans-serif;
 font-weight: 300;
 font-style: normal;}
 h1 {font-family: "canada-type-gibson", sans-serif;
 font-weight: 900;
-font-style: normal;
-position: absolute; 
-left: 180px;
-top: 50px;
+font-style: normal; 
 font-size: 60px;}
 h2 {font-family: "canada-type-gibson", sans-serif;
 font-weight: 600;
@@ -20,87 +63,9 @@ text-decoration-color: none;
    text-decoration: none;}
 h3 {font-family: canada-type-gibson, sans-serif;
 font-weight: 100;
-font-style: normal;
-font-size: 40px;}
+font-size: 20px;}
 h3:hover {color: white;}
-.design1 { position: absolute; 
-left: 200px;
-top: 200px;}
-.Illustration1 { position: absolute; 
-left: 650px;
-top: 200px;}
-.Games { position: absolute; 
-left: 200px;
-top: 510px;}
-.More {position: absolute; 
-left: 680px;
-top: 510px;}
 
-.Home {
-position: absolute;
-left: 1020px;
-top: 120px;	}
-.design2 {
-position: absolute;
-left: 1020px;
-top: 180px;	}
-.illustration2 {position: absolute;
-left: 1020px;
-top: 250px;}
-.games2 {position: absolute;
-left: 1020px;
-top: 320px;}
-.more2 {position: absolute;
-left: 1020px;
-top: 390px;}
-.about2 {position: absolute;
-left: 1020px;
-top: 460px;}
-.contact2 {position: absolute;
-left: 1020px;
-top: 530px;}
-
-.redbanner img{
-	position: absolute;
-	top: 20px;
-	left:100px;
-	width: 800px;
-	}
-.designblock img{
-	position: absolute;
-	top: 260px;
-	left:150px;
-	width: 200px;
-filter: drop-shadow(2px 2px 2px );}
-.illblock img{
-	position: absolute;
-	top: 260px;
-	left: 622px;
-	width: 200px;
-filter: drop-shadow(2px 2px 2px );}
-.gamesblock img{
-	position: absolute;
-	top: 570px;
-	left:150px;
-	width: 200px;
-filter: drop-shadow(2px 2px 2px );}
-.moreblock img{
-	position: absolute;
-	top: 570px;
-	left:622px;
-	width: 200px;
-filter: drop-shadow(2px 2px 2px );}
-
-.button img{
-	position: absolute;
-	top: 90px;
-	left:1200px;
-	width: 50px;}
-.dopwdown img{
-	position: absolute;
-	top: 135px;
-	left:980px;
-	width: 240px;}
  a:link {
       text-decoration: none;
 }
@@ -123,23 +88,3 @@ a:hover { color: white; }
 
 /*for block hover*/
 
-.designblock:hover { 
-	position: relative;
-	left: 45px;
-	top: -40px;
-	transform: scale(1.1)}
-.illblock:hover { 
-	position: relative;
-	left: 0px;
-	top: -40px;
-	transform: scale(1.1)}
-.gamesblock:hover { 
-	position: relative;
-	left: 45px;
-	top:  -60px;
-	transform: scale(1.1)}
-.moreblock:hover { 
-	position: relative;
-	left: 0px;
-	top: -60px;
-	transform: scale(1.1)}
