@@ -7,7 +7,7 @@
 }
 .grid_container {
 	display: grid;
-	grid-template-columns: 2fr 1fr 3fr;
+	grid-template-columns: 2fr 1fr;
     padding: auto;
 	text-align: center;
 	
@@ -16,15 +16,15 @@
 	width: auto;
 }
 .info {
-	padding: 60px;
+	padding: 10px;
 grid-column: 1;
 }
 
 .title {
 	padding: 20px;
-grid-column: 3;
+grid-column: 2;
 } 
-img { max-width:60%;
+img { max-width:90%;
   height: auto;}
   body {
 	background-color: #F8C44E;
