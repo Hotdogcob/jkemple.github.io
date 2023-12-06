@@ -13,23 +13,18 @@ padding:0;}
 	background-color: #F7AD00;
 	margin: auto;
 }
-.grid_container {
+.grid-container {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns:  1fr 1fr;
     padding: auto;
 	text-align: center;
 	
 }
-.grid_items {
-	width: auto;
-}
-.info {
-	padding: 10px;
-grid-column: 1;
-}
-
-img { max-width:90%;
-  height: auto;}
+.griditem {padding: 10px;
+align: center;}
+.design1 {padding-top: 30px}
+.design22 {padding-top: 30px}
+img { max-width:60%;}
 body {
 	background-color: #78B8B5;
 margin: 0;

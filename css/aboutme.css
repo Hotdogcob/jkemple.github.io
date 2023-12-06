@@ -15,21 +15,15 @@ padding:0;}
 }
 .grid_container {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 1fr 1fr;
     padding: auto;
-	text-align: center;
 	
 }
-.grid_items {
-	width: auto;
-}
-.info {
-	padding: 10px;
-grid-column: 1;
-}
 
-img { max-width:90%;
-  height: auto;}
+
+img { width: 60%;
+	
+  }
 body {
 	background-color: #78B8B5;
 margin: 0;

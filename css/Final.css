@@ -5,7 +5,6 @@ margin:0;
 padding:0;}
 .title {
 	margin: auto;
-	text-align: center;
 }
 .leftfloat {
 	display: flex;
@@ -20,10 +19,6 @@ padding: auto;
 	text-align: center;
 }
 
-.grid_item {
-	width: auto;
-	border-radius: 40px;
-}
 .designblock {padding: 20px;
 grid-column: 1;}
 .illblock {padding: 20px;
@@ -35,7 +30,6 @@ grid-column: 2;}
 
 img {
   max-width:60%;
-  height: auto;
 }
 body {
 	background-color: #78B8B5;
@@ -78,6 +72,4 @@ a:active {
 a { color: #332E23; }
 a:hover { color: white; }
 
-
-/*for block hover*/
 

@@ -15,21 +15,19 @@ padding:0;}
 }
 .grid_container {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
-    padding: auto;
+	grid-template-columns: 1fr 1fr 1fr ;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
-	
 }
-.grid_items {
-	width: auto;
+.grid_items {padding-left:10px; grid-column: 1;
 }
-.info {
-	padding: 10px;
-grid-column: 1;
-}
+.grid_items2 {padding: 20px; grid-column: 2/4}
+img { max-width:80%;}
+.Polaroidtitle {padding-left: 60px;}
+.MMtitle {grid-column: 2/4; }
 
-img { max-width:90%;
-  height: auto;}
+
 body {
 	background-color: #78B8B5;
 margin: 0;
