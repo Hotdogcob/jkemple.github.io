@@ -17,8 +17,9 @@ padding:0;}
 	display: grid;
 	grid-template-columns: 1fr 1fr;
     padding: auto;
-	
-}
+	}
+.title2 {align-items: center; text-align: center;}
+.info {padding-left: 30px}
 
 
 img { width: 60%;
