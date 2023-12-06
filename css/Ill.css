@@ -15,20 +15,11 @@ padding:0;}
 }
 .grid_container {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
-    padding: auto;
+	grid-template-columns: 1fr 1fr;
 	text-align: center;
-	
-}
-.grid_items {
-	width: auto;
-}
-.info {
-	padding: 10px;
-grid-column: 1;
-}
-
-img { max-width:90%;
+	}
+.grid_items {padding: 20px}
+img { max-width:60%;
   height: auto;}
 body {
 	background-color: #78B8B5;
