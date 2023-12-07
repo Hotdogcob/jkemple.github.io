@@ -13,6 +13,7 @@ padding:0;}
 	background-color: #F7AD00;
 	margin: auto;
 }
+.intro { text-align: center; padding-left: 5%; padding-right: 5%; color: white;}
 .grid_container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr ;
@@ -48,7 +49,7 @@ text-decoration-color: none;
 h3 {font-family: canada-type-gibson, sans-serif;
 font-weight: 100;
 font-size: 30px;}
-h3:hover {color: white;}
+.nava hover {color: white;}
 
  a:link {
       text-decoration: none;
