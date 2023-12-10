@@ -13,7 +13,7 @@ padding:0;}
 	background-color: #F7AD00;
 	margin: auto;
 }
-.contact {text-align: center}
+.contact {text-align: center; padding-left: 5%; padding-right: 5%}
 
 body {
 	background-color: #78B8B5;
