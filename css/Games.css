@@ -13,6 +13,7 @@ padding:0;}
 	background-color: #F7AD00;
 	margin: auto;
 }
+.Info {text-align: center; padding-left: 5%; padding-right: 5%}
 .Fightingpits {text-align: center}
 .description {text-align: center}
 .grid_container1 {
@@ -58,6 +59,10 @@ text-decoration-color: none;
 h3 {font-family: canada-type-gibson, sans-serif;
 font-weight: 100;
 font-size: 30px;}
+h4 {font-family: canada-type-gibson, sans-serif;
+font-weight: 100;
+font-size: 30px;
+color: white}
 h3:hover {color: white;}
 
  a:link {
